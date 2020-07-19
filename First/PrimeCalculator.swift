@@ -9,7 +9,9 @@
 import Foundation
 
 struct PrimeCalculator {
-    static func calculate(upTo max: Int, completion: @escaping ([Int]) -> Void) {
+    static func calculate(upTo max: Int, completion: @escaping ([Int]) -> Void) -> Progress {
+        let progress = Progress(totalUnitCount: Int64(max))
+        
         //Push our work straight to a background thread
         DispatchQueue.global().async {
             guard max > 1 else {
@@ -24,8 +26,11 @@ struct PrimeCalculator {
             sieve[0] = false
             sieve[1] = false
             
+            //Add 2 to our progress counter, because we already went through 0 and 1
+            progress.completedUnitCount += 1
+            
             // count from 0 up to the ceiling…
-            for number in 0 ..< max {
+            for number in 2 ..< max {
                 // if this is marked as prime, then every multiple of it is not prime
                 if sieve[number] == true {
                     for multiple in stride(from: number * number, to: sieve.count, by: number) {
@@ -39,5 +44,31 @@ struct PrimeCalculator {
             completion(primes)
         }
         
+        //Sends back the Progress object
+        return progress
+        
     }
+    
+    static func calculateStreaming(upTo max: Int, completion: @escaping (Int) -> Void) {
+        DispatchQueue.global().async {
+            guard max > 1 else {
+                return
+            }
+            
+            var sieve = [Bool](repeating: true, count: max)
+            sieve[0] = false
+            sieve[1] = false
+            
+            for number in 2 ..< max {
+                if sieve[number] == true {
+                    for multiple in stride(from: number * number, to: sieve.count, by: number) {
+                        sieve[multiple] = false
+                    }
+                    
+                    completion(number)
+                }
+            }
+        }
+    }
+    
 }
