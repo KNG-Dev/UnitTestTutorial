@@ -19,6 +19,7 @@
 		34A7007024C3944E00EE24F7 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7006F24C3944E00EE24F7 /* Converter.swift */; };
 		34A7007124C3944E00EE24F7 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7006F24C3944E00EE24F7 /* Converter.swift */; };
 		34A7007324C394D200EE24F7 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7007224C394D200EE24F7 /* ConverterTests.swift */; };
+		34A7007524C45FB900EE24F7 /* LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7007424C45FB900EE24F7 /* LifeCycleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		345B603924C292BC00566950 /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
 		34A7006F24C3944E00EE24F7 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		34A7007224C394D200EE24F7 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
+		34A7007424C45FB900EE24F7 /* LifeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				345B602024C28DF100566950 /* FirstTests.swift */,
-				345B602224C28DF100566950 /* Info.plist */,
 				34A7007224C394D200EE24F7 /* ConverterTests.swift */,
+				34A7007424C45FB900EE24F7 /* LifeCycleTests.swift */,
+				345B602224C28DF100566950 /* Info.plist */,
 			);
 			path = FirstTests;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				34A7007324C394D200EE24F7 /* ConverterTests.swift in Sources */,
 				345B602124C28DF100566950 /* FirstTests.swift in Sources */,
+				34A7007524C45FB900EE24F7 /* LifeCycleTests.swift in Sources */,
 				34A7007124C3944E00EE24F7 /* Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

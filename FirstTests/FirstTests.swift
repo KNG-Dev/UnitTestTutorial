@@ -42,7 +42,7 @@ class FirstTests: XCTestCase {
         
         hater.hadABadDay()
         
-        XCTAssertFalse(hater.hating)
+        XCTAssertTrue(hater.hating)
     }
     
     func testHaterHappyAfterGoodDay() {
