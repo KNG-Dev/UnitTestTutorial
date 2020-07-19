@@ -99,5 +99,10 @@ class ThrowingTests: XCTestCase {
         try game.play()
     }
     
+//    func testIBButtons() {
+    //If using storyboard, testing to make sure outlets are connected can save a huge time.
+//        XCTAssertNil(sut.submitButton)
+//    }
+    
 
 }

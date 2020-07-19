@@ -67,10 +67,10 @@ class ConverterTests: XCTestCase {
     func test100FahrenheitIs37Celcius() {
         //Given
         let input = 100.0
-        
+
         //When
         let celsius = sut.convertToCelsius(fahrenheit: input)
-        
+
         //Then
         XCTAssertEqual(celsius, 37.777777, accuracy: 0.000001)
     }
