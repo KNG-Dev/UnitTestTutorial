@@ -10,6 +10,7 @@ import Foundation
 
 struct PrimeCalculator {
     static func calculate(upTo max: Int, completion: @escaping ([Int]) -> Void) -> Progress {
+        //Create a Progress object that counts up to our maximum number
         let progress = Progress(totalUnitCount: Int64(max))
         
         //Push our work straight to a background thread
@@ -27,10 +28,13 @@ struct PrimeCalculator {
             sieve[1] = false
             
             //Add 2 to our progress counter, because we already went through 0 and 1
-            progress.completedUnitCount += 1
+            progress.completedUnitCount += 2
             
             // count from 0 up to the ceiling…
             for number in 2 ..< max {
+                //everytime we've checked one number, add 1 to our completed unit count
+                progress.completedUnitCount += 1
+                
                 // if this is marked as prime, then every multiple of it is not prime
                 if sieve[number] == true {
                     for multiple in stride(from: number * number, to: sieve.count, by: number) {

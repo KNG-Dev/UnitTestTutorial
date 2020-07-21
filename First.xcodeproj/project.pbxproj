@@ -23,6 +23,8 @@
 		34A7007324C394D200EE24F7 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7007224C394D200EE24F7 /* ConverterTests.swift */; };
 		34A7007524C45FB900EE24F7 /* LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7007424C45FB900EE24F7 /* LifeCycleTests.swift */; };
 		34A7007724C4BAAB00EE24F7 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7007624C4BAAB00EE24F7 /* ThrowingTests.swift */; };
+		34BC9CBE24C72D3500C0B5A9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9CBD24C72D3400C0B5A9 /* User.swift */; };
+		34BC9CC024C72E3300C0B5A9 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9CBF24C72E3300C0B5A9 /* UserTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		34A7007224C394D200EE24F7 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 		34A7007424C45FB900EE24F7 /* LifeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTests.swift; sourceTree = "<group>"; };
 		34A7007624C4BAAB00EE24F7 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
+		34BC9CBD24C72D3400C0B5A9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		34BC9CBF24C72E3300C0B5A9 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 				345B600B24C28DEF00566950 /* SceneDelegate.swift */,
 				345B600D24C28DEF00566950 /* ViewController.swift */,
 				346E6B2B24C4FDEE002CB8CB /* PrimeCalculator.swift */,
+				34BC9CBD24C72D3400C0B5A9 /* User.swift */,
 				34A7006F24C3944E00EE24F7 /* Converter.swift */,
 				345B603924C292BC00566950 /* Hater.swift */,
 				345B600F24C28DEF00566950 /* Main.storyboard */,
@@ -153,6 +158,7 @@
 				34A7007224C394D200EE24F7 /* ConverterTests.swift */,
 				34A7007424C45FB900EE24F7 /* LifeCycleTests.swift */,
 				34A7007624C4BAAB00EE24F7 /* ThrowingTests.swift */,
+				34BC9CBF24C72E3300C0B5A9 /* UserTests.swift */,
 				345B602224C28DF100566950 /* Info.plist */,
 			);
 			path = FirstTests;
@@ -343,6 +349,7 @@
 				346E6B2C24C4FDEE002CB8CB /* PrimeCalculator.swift in Sources */,
 				345B603A24C292BC00566950 /* Hater.swift in Sources */,
 				345B600C24C28DEF00566950 /* SceneDelegate.swift in Sources */,
+				34BC9CBE24C72D3500C0B5A9 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34BC9CC024C72E3300C0B5A9 /* UserTests.swift in Sources */,
 				34A7007324C394D200EE24F7 /* ConverterTests.swift in Sources */,
 				34A7007724C4BAAB00EE24F7 /* ThrowingTests.swift in Sources */,
 				345B602124C28DF100566950 /* FirstTests.swift in Sources */,
