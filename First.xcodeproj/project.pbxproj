@@ -26,6 +26,10 @@
 		34BC9CBE24C72D3500C0B5A9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9CBD24C72D3400C0B5A9 /* User.swift */; };
 		34BC9CC024C72E3300C0B5A9 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9CBF24C72E3300C0B5A9 /* UserTests.swift */; };
 		34BC9CC224C7312300C0B5A9 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9CC124C7312300C0B5A9 /* PerformanceTests.swift */; };
+		34BC9CC424C7349200C0B5A9 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9CC324C7349200C0B5A9 /* House.swift */; };
+		34BC9CC624C734D700C0B5A9 /* HouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9CC524C734D700C0B5A9 /* HouseTests.swift */; };
+		34BC9D0624C8697A00C0B5A9 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0524C8697A00C0B5A9 /* Cake.swift */; };
+		34BC9D0824C869A100C0B5A9 /* CakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0724C869A100C0B5A9 /* CakeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,10 @@
 		34BC9CBD24C72D3400C0B5A9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		34BC9CBF24C72E3300C0B5A9 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
 		34BC9CC124C7312300C0B5A9 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
+		34BC9CC324C7349200C0B5A9 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		34BC9CC524C734D700C0B5A9 /* HouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTests.swift; sourceTree = "<group>"; };
+		34BC9D0524C8697A00C0B5A9 /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
+		34BC9D0724C869A100C0B5A9 /* CakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,8 @@
 				346E6B2B24C4FDEE002CB8CB /* PrimeCalculator.swift */,
 				34BC9CBD24C72D3400C0B5A9 /* User.swift */,
 				34A7006F24C3944E00EE24F7 /* Converter.swift */,
+				34BC9CC324C7349200C0B5A9 /* House.swift */,
+				34BC9D0524C8697A00C0B5A9 /* Cake.swift */,
 				345B603924C292BC00566950 /* Hater.swift */,
 				345B600F24C28DEF00566950 /* Main.storyboard */,
 				345B601224C28DF100566950 /* Assets.xcassets */,
@@ -162,6 +172,8 @@
 				34A7007624C4BAAB00EE24F7 /* ThrowingTests.swift */,
 				34BC9CBF24C72E3300C0B5A9 /* UserTests.swift */,
 				34BC9CC124C7312300C0B5A9 /* PerformanceTests.swift */,
+				34BC9CC524C734D700C0B5A9 /* HouseTests.swift */,
+				34BC9D0724C869A100C0B5A9 /* CakeTests.swift */,
 				345B602224C28DF100566950 /* Info.plist */,
 			);
 			path = FirstTests;
@@ -347,7 +359,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				345B600E24C28DEF00566950 /* ViewController.swift in Sources */,
+				34BC9D0624C8697A00C0B5A9 /* Cake.swift in Sources */,
 				34A7007024C3944E00EE24F7 /* Converter.swift in Sources */,
+				34BC9CC424C7349200C0B5A9 /* House.swift in Sources */,
 				345B600A24C28DEF00566950 /* AppDelegate.swift in Sources */,
 				346E6B2C24C4FDEE002CB8CB /* PrimeCalculator.swift in Sources */,
 				345B603A24C292BC00566950 /* Hater.swift in Sources */,
@@ -360,8 +374,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34BC9D0824C869A100C0B5A9 /* CakeTests.swift in Sources */,
 				34BC9CC224C7312300C0B5A9 /* PerformanceTests.swift in Sources */,
 				34BC9CC024C72E3300C0B5A9 /* UserTests.swift in Sources */,
+				34BC9CC624C734D700C0B5A9 /* HouseTests.swift in Sources */,
 				34A7007324C394D200EE24F7 /* ConverterTests.swift in Sources */,
 				34A7007724C4BAAB00EE24F7 /* ThrowingTests.swift in Sources */,
 				345B602124C28DF100566950 /* FirstTests.swift in Sources */,
