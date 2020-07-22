@@ -30,6 +30,7 @@
 		34BC9CC624C734D700C0B5A9 /* HouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9CC524C734D700C0B5A9 /* HouseTests.swift */; };
 		34BC9D0624C8697A00C0B5A9 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0524C8697A00C0B5A9 /* Cake.swift */; };
 		34BC9D0824C869A100C0B5A9 /* CakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0724C869A100C0B5A9 /* CakeTests.swift */; };
+		34BC9D0A24C878E700C0B5A9 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0924C878E700C0B5A9 /* App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		34BC9CC524C734D700C0B5A9 /* HouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTests.swift; sourceTree = "<group>"; };
 		34BC9D0524C8697A00C0B5A9 /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
 		34BC9D0724C869A100C0B5A9 /* CakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeTests.swift; sourceTree = "<group>"; };
+		34BC9D0924C878E700C0B5A9 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				34A7006F24C3944E00EE24F7 /* Converter.swift */,
 				34BC9CC324C7349200C0B5A9 /* House.swift */,
 				34BC9D0524C8697A00C0B5A9 /* Cake.swift */,
+				34BC9D0924C878E700C0B5A9 /* App.swift */,
 				345B603924C292BC00566950 /* Hater.swift */,
 				345B600F24C28DEF00566950 /* Main.storyboard */,
 				345B601224C28DF100566950 /* Assets.xcassets */,
@@ -361,6 +364,7 @@
 				345B600E24C28DEF00566950 /* ViewController.swift in Sources */,
 				34BC9D0624C8697A00C0B5A9 /* Cake.swift in Sources */,
 				34A7007024C3944E00EE24F7 /* Converter.swift in Sources */,
+				34BC9D0A24C878E700C0B5A9 /* App.swift in Sources */,
 				34BC9CC424C7349200C0B5A9 /* House.swift in Sources */,
 				345B600A24C28DEF00566950 /* AppDelegate.swift in Sources */,
 				346E6B2C24C4FDEE002CB8CB /* PrimeCalculator.swift in Sources */,

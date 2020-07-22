@@ -10,7 +10,7 @@ import XCTest
 @testable import First
 
 class PerformanceTests: XCTestCase {
-
+    
     func testPrimePerformance() {
         measure {
             _ = PrimeCalculator.calculateForPerformance(upTo: 1_000_000)

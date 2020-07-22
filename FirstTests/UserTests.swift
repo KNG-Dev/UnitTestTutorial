@@ -10,20 +10,20 @@ import XCTest
 @testable import First
 
 class UserTests: XCTestCase {
-
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-
+    
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
+    
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
@@ -36,26 +36,51 @@ class UserTests: XCTestCase {
         let center = NotificationCenter()
         let user = User()
         let expectation = XCTNSNotificationExpectation(name: User.upgradedNotification, object: nil, notificationCenter: center)
-            
-
+        
+        
         expectation.handler = { notification -> Bool in
             guard let level = notification.userInfo?["level"] as? String else {
                 return false
             }
-
+            
             if level == "gold" {
                 return true
             } else {
                 return false
             }
         }
-
+        
         // when
         user.upgrade(using: center)
-
+        
         // then
         wait(for: [expectation], timeout: 3)
     }
-
-
+    
+    func testUserCantBuyUnreleasedApp() {
+        struct UnreleasedAppStub: AppProtocol {
+            var price: Decimal = 0
+            var minimumAge = 0
+            var isReleased = false
+            
+            func canBePurchased(by user: AppUserProtocol) -> Bool {
+                return false
+            }
+        }
+        
+        // given
+        var sut = AppUser(funds: 100, age: 21, apps: [])
+        let app = UnreleasedAppStub()
+        type(of: app).printTerms()
+        
+        // when
+        let wasBought = sut.buy(app)
+        
+        // then
+        XCTAssertFalse(wasBought)
+    }
+    
+    
+    
+    
 }
