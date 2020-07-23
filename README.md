@@ -1,5 +1,5 @@
 # UnitTestTutorial
-Swift Testings
+Testing Swift
 
 ![](book-testing.png)
 
