@@ -31,6 +31,9 @@
 		34BC9D0624C8697A00C0B5A9 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0524C8697A00C0B5A9 /* Cake.swift */; };
 		34BC9D0824C869A100C0B5A9 /* CakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0724C869A100C0B5A9 /* CakeTests.swift */; };
 		34BC9D0A24C878E700C0B5A9 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0924C878E700C0B5A9 /* App.swift */; };
+		34BC9D0C24CA570900C0B5A9 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0B24CA570900C0B5A9 /* Tweet.swift */; };
+		34BC9D0E24CA5A4000C0B5A9 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0D24CA5A4000C0B5A9 /* ShareView.swift */; };
+		34BC9D1024CA5AB600C0B5A9 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC9D0F24CA5AB500C0B5A9 /* ShareViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,9 @@
 		34BC9D0524C8697A00C0B5A9 /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
 		34BC9D0724C869A100C0B5A9 /* CakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeTests.swift; sourceTree = "<group>"; };
 		34BC9D0924C878E700C0B5A9 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		34BC9D0B24CA570900C0B5A9 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		34BC9D0D24CA5A4000C0B5A9 /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		34BC9D0F24CA5AB500C0B5A9 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,9 @@
 				34BC9D0524C8697A00C0B5A9 /* Cake.swift */,
 				34BC9D0924C878E700C0B5A9 /* App.swift */,
 				345B603924C292BC00566950 /* Hater.swift */,
+				34BC9D0B24CA570900C0B5A9 /* Tweet.swift */,
+				34BC9D0D24CA5A4000C0B5A9 /* ShareView.swift */,
+				34BC9D0F24CA5AB500C0B5A9 /* ShareViewController.swift */,
 				345B600F24C28DEF00566950 /* Main.storyboard */,
 				345B601224C28DF100566950 /* Assets.xcassets */,
 				345B601424C28DF100566950 /* LaunchScreen.storyboard */,
@@ -361,9 +370,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34BC9D0E24CA5A4000C0B5A9 /* ShareView.swift in Sources */,
 				345B600E24C28DEF00566950 /* ViewController.swift in Sources */,
 				34BC9D0624C8697A00C0B5A9 /* Cake.swift in Sources */,
 				34A7007024C3944E00EE24F7 /* Converter.swift in Sources */,
+				34BC9D1024CA5AB600C0B5A9 /* ShareViewController.swift in Sources */,
 				34BC9D0A24C878E700C0B5A9 /* App.swift in Sources */,
 				34BC9CC424C7349200C0B5A9 /* House.swift in Sources */,
 				345B600A24C28DEF00566950 /* AppDelegate.swift in Sources */,
@@ -371,6 +382,7 @@
 				345B603A24C292BC00566950 /* Hater.swift in Sources */,
 				345B600C24C28DEF00566950 /* SceneDelegate.swift in Sources */,
 				34BC9CBE24C72D3500C0B5A9 /* User.swift in Sources */,
+				34BC9D0C24CA570900C0B5A9 /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
